@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif; 
+}
+
+#calculator {
+    width: 320px; /* Adjust width as needed */
+    border: 1px solid #ccc; /* Border around the calculator */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background-color:  var(--very-dark-des-blue-main); /* Background color of the calculator */
+}
+
+/* Menu Styles */
+#menu {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+/* Panel Styles */
+#panel {
+    padding: 10px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+
+#panel-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5em;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* Keyboard Styles */
+#keyboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+.my-btn {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.my-btn:hover {
+    background-color: #ccc;
+}
+
+#del-btn {
+    background-color: #ff6f6f;
+    color: white;
+}
+
+#del-btn:hover {
+    background-color: #ff4c4c;
+}
+
+#reset-btn {
+    background-color: #ff9800;
+    color: white;
+}
+
+#reset-btn:hover {
+    background-color: #fb8c00;
+}
+
+#equal-btn {
+    background-color: #4caf50;
+    color: white;
+    grid-column: span 4;
+}
+
+#equal-btn:hover {
+    background-color: #388e3c;
+}

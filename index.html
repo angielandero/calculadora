@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="menu">
+            <p><b>Calc</b></p>
+        </div>
+
+        <div id="panel">
+            <input id="panel-input" type="text" />
+        </div>
+
+        <div id="keyboard">
+            <button onclick="btnNbrClicked(event)" class="my-btn">7</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">8</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">9</button>
+            <button onclick="btnDeleteClicked(event)" class="my-btn" id="del-btn">
+              DEL
+            </button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">4</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">5</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">6</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">+</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">1</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">2</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">3</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">-</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">.</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">0</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">/</button>
+            <button onclick="btnNbrClicked(event)" class="my-btn">x</button>
+            <button onclick="btnEqualClicked(event)" class="my-btn" id="equal-btn">
+              =
+            </button>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
